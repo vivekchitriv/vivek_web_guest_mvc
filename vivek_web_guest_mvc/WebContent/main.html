@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ISO-8859-1">
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/styles.css">
+     <style>
+     p{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-family: Arnoldboecklin, fantasy;
+
+}
+body{
+    background-color: yellowgreen;
+}
+header{
+    background-color: #e8e8e8;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: ghostwhite;
+}
+#logo{
+    margin-bottom: 20px;
+}
+
+.nav_menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_menu li {
+    min-width: 8em;
+    float: left;
+    margin-right: 0.5em ;
+    text-align: center;
+}
+.nav_menu li a:link,
+.nav_menu li a:visited{
+    background-color: aqua;
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0 0.2em 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px  rgba(43,43,77,0.5);
+}
+.nav_menu li a:hover{
+    background-color: aquamarine;
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
+.clear{
+    clear: both;
+}
+/*#mainBody{
+background-color: gray;
+}*/
+#WelcomeDiv{
+    background-color: #e8e8e8;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px #888888;
+ }
+#newsLetter{
+    background-color: #e8e8e8;
+    float: left;
+    padding: 15px;
+    width: 20%;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+#leftDiv{
+    background-color: #e8e8e8;
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 320px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#leftDiv img
+{
+    max-height: 100px;
+    max-width: 100px;
+    float:right;
+}
+#rightDiv{
+    background-color: #e8e8e8;
+    float: right;
+    width: 40%;
+    padding: 10px;
+    height: 320px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#rightDiv img{
+    max-height: 100px;
+    max-width: 100px;
+    float: right;
+}
+     </style>
+    <title>Our new Webpage</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo"><a href="#"><img src=""></a></div>
+            <ul class="nav_menu">
+                <li><a href="home.jsp">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+            <div class="clear"></div>
+        </header>
+        <section id="mainBody">
+            <div id="WelcomeDiv"><h2>Welcome to new Page</h2>
+            <p>Hope you have a lovely saty while your viewing my content; and please do let me Know what you think...</p>
+            </div>
+            <div id="newsLetter">
+                <input type="text" name="Name">
+                <br>
+                <input type="email" name="Email">
+                <br><br>
+                <input type="submit" value="login" name="submit">
+            </div>
+            <div class="clear"></div>
+            <div id="leftDiv">
+             <a href="http://coderswave.com"><img src="VIVEK.jpg"></a>
+            <p>Hello and Welcome. My name is vivek and this section I wanted to give you a little info on myself.
+            </p>
+            <p>I'm bit of a computer wiz they say;i've been a software professional for around 6 years now and
+            have worked in a number of computer programming languages and operating system..</p>
+             <p>
+                 I hope you have enjoyed this course and have made a wanderful page yourself.
+             </p>
+            </div>
+            <div id="rightDiv">
+                <a href="http://coderswave.com"><img src="VIVEK.jpg"></a>
+                <p>The Taj Hotel  is a unique location at the confluence of the rivers stour and avon and on the shores of its own</p>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <footer>Copyright Mine</footer>
+    </div>
+
+</body>
+</html>
